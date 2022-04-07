@@ -25,13 +25,14 @@ header {
   width: 100%;
   background-color:#EEFFFD; 
   height: 197px;
-  background-image: url(../img/header-novo.png);
+  background-image: url("src/assets/img/header-novo.png");
   background-repeat:no-repeat;
   background-size: 100%;
   display: flex;
   justify-content: center;
   margin: 0 auto;
 }
+
 
 .menu a {
   width:100%;
@@ -42,7 +43,7 @@ header {
   font-family: 'Nova Cut', cursive;
   font-size:  23px;
   justify-content:flex-end;
-  background-image: url(../img/botoes-circulares.png);
+  background-image: url("src/assets/img/botoes-circulares.png");
   background-position-x: center;
   background-position-y:center;
   background-repeat: no-repeat;
@@ -51,30 +52,12 @@ header {
   
 }
 
-/* o botao de busca ficará para um momento de refatoração do código, para ser feito com calma.
-.busca a {
-  width: 210px;
-  height:fit-content;
-  font-family:'Gemunu Libre', sans-serif;
-  font-size: 25px;
-  text-decoration: none;   
-  position: absolute;
-  /*Essa posição "absolute" ajuda a que se posicione sob a div botoes, que para isso teve q ser definida como "relative"_______*/
- /* color: black;
-  background-image: url(../img/Busca.png);
-  background-repeat: no-repeat;
-  background-size:auto;
-  margin-top: 20px;  
-  
-   /*consegui alinhar o busca a direita usando o comando right, para desliza-lo para onde precisava. com o "position absolute" ele estava alinhado à esquerda dos botoes
-}
-*/
 
 /*___________Banner___________ */
 .banner{ 
   height: 230px;
   width: 100%;
-  background-image:url(../img/Banner.png);
+  background-image:url("src/assets/img/Banner.png");
   background-repeat: no-repeat;
   justify-content: center;
   display:flex;
@@ -221,7 +204,7 @@ footer{
   position:relative;
   bottom: 0;  
   background-color: #C4C4C4;
-  background-image: url(../img/Footer-padrão-NOVO.png);
+  background-image: url("src/assets/img/Footer-padrão-NOVO.png");
   background-size: 100%;
   background-repeat: no-repeat; 
 }

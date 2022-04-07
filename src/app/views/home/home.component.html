@@ -1,70 +1,141 @@
-<body>
+
     <header>
         <div class="container-grid posicionamento-header">
             <div class="logo-botao">
-                <a href="index.html"> <img class="logo" src="img/logo-site-NOVO.png"  alt="Logo do site Geométrica"            
-                    width="100%";
+                <a href="index.html"><img class="logo" src="src/assets/img/logo-site-NOVO.png"  alt="Logo do site Geométrica"            
+                    width="100%"
                     height="90px" alt="Logo do site"> </a>
             </div>
-                
            
             <nav id="menu" class="menu">
                     <a href="login.html">Login</a>
                     <a href="#">Jogar</a>
                     <a href ="index.html">Home</a>
-            </nav>
-            <a href="#" id="barras"><img class="barras" src="img/menu.png" alt= "menu de barras"></a>
+            </nav>  
+
+            <a href="#" id="barras"><img class="barras" src="src/assets/img/menu.png" alt= "menu de barras"></a>
         </div>
     </header>
+    <main>
+        <div class="banner">
+            <div class="container-grid posicao-texto">
+                <div class="texto-banner">
+                   <h2>A geometria da vida</h2>
+                   <p>Aprenda a criar seus próprios padrões, imprima e decore!</p>
+                   <a href="">Confira!</a>                     
+                </div>
+            </div>
+        </div>
+        <div class="container"> 
+            <div class = "conteudo-body">
+               <div class ="row">
+                   <div class = "col-md-12 col-lg-4">
+                    <section class="o-que-e"  >
+                        <h2>O que é geométrica?</h2>
+                        <p>Geométrica é um jogo para quem gosta de desafios lógicos,num ambiente visualmente deslumbrante</p>
+                     </section> 
+                   </div>
+                   <div class = "col-md-12 col-lg-4">
+                    <section class="como-jogar">
+                        <h2>Como jogar?</h2>
+                         <p>Jogue em pares ou modo solo, resolvendo puzzles inspirados na geometria oriental</p>
+                    </section >
+                   </div>
+                   <div class = "col-md-12 col-lg-2">
+                    <section class ="baixar">
+                        <h2>Baixe Agora!</h2>
+                        <a href="#"><img class="Baixar-botao" src="src/assets/img/download.png" alt="botao baixar"></a>
+                     </section>
+                   </div>
+               </div>                           
+           </div>       
+       </div>  
+       <div class="container">
+            <div class="conteudo-body">
+                <div class="row">
+                    <div class="col-md-12 col-lg-10">
+                        <section class="lancamentos-container">
+                            <h2>Últimos lançamentos</h2>
+                            <img src="src/assets/img/ilustra_origens.jpg" alt="ilustra origens" >
+                            <img src="src/assets/img/ilustra_fogo_sagrado.jpg" alt="ilustra_fogo_sagrado" >
+                        </section>
+                    </div>
 
-<main>
-    <form>
-        <fieldset > 
-            <label for="email">Email:</label>
-            <input  type="email" id="email"class=input-padrao required placeholder="seuemail@dominio.com">
+                    <div class ="col-md-12 col-lg-2">
+                        <section class="forum" >
+                            <article>
+                            <h2>Fórum</h2>
+                            <p>Sagrada: como passar da fase 3?</p>
+                            <p>Qual é o seu jogo favorito?</p>
+                            </article>
+                        </section>
+                    </div>
+                </div>
+            </div>
+       </div>
+    <div class="container">
+        <div class ="row">
+            <div class="col-md-12 col-lg-8">
+                <section class="lojinha">           
+                    <h2>Nossa lojinha</h2>
+                    <div class="ilustracoes">
+                    <img src="src/assets/img/ilustra_oculos.jpg" alt="ilustra ilustra_oculos" widht=210px height="175px">
+                    <img src="src/assets/img/ilustra_fone.jpg" alt="ilustra_fone" width="210px" height="175px">
+                    <img src="src/assets/img/ilustra_colorir.jpg" alt="ilustra_colorir" width="210px" height="175px">
+                    </div>
+                </section>
+            </div>  
 
-            <label for="senha">Senha:</label>
-            <input  type="password" id="senha"class=input-padrao required>
-            <!-- Desenvolver futuramente:   <legend> Esqueceu sua senha?</legend>  -->
-            <input type="submit"  onclick= "logar(); return false"; id="entrar" value="Entrar" class="entrar">
-         </fieldset>
-    </form>
-</main>
+            <div class ="col-md-12 col-lg-4">    
+                <section  id= listaLivros class= "livros">
+                    <h2>Livros</h2>
+                    <div class=livrosVenda>
+                        <h3>A geometria oriental - simbologias</h3>
+                        <img src="src/assets/img/ilustra_livro.jpg" alt="foto_livro"    width="210px" height="175px">
+                        <p>Aprofunde seu conhecimento sobre o tema</p>
+                    </div>  
+                 </section> 
+            </div>
+        </div>
+    </div>
+    </main>
     <footer>
-        <div class="container rodape">
-            
+         <div class="container rodape">
+                
             <div class="blocoInfos">
                 <a href="#">Quem Somos</a>
                 <a href="#">Termos de uso</a>
             </div>
-
+    
             <div class="blocoInfos">
-                <a href="#">Suporte</a>
-                <a href="#">Pagamento</a>
+               <a href="#">Suporte</a>
+               <a href="#">Pagamento</a>
             </div>  
-        <div class="redes">
+                
+            <div class="redes">
                 <div class= titulo-redes>
-                <p> Siga-nos nas redes</p>
+                    <p> Siga-nos nas redes</p>
                 </div> 
                 <div class="links-redes">
                     <a href="#"><img src="img/logo yt.png" alt="logo youtube">Youtube</a>
-                    <a href="#"><img src="img/logo-face.png" alt="logo facebook">Facebook</a>
-                    <a href="#"> <img src="img/logo-insta.png" alt="logo instagram">Instagram</a>             
+                     <a href="#"><img src="img/logo-face.png" alt="logo facebook">Facebook</a>
+                     <a href="#"> <img src="img/logo-insta.png" alt="logo instagram">Instagram</a>             
+                </div> 
             </div> 
-        </div> 
-        <div class="newsletter">
-            <h4>Receba nossas novidades!</h4>
-            <form action="">
-                <input id="campo-email" type="email" placeholder="E-mail" required> 
-                <button onclick="enviarEmail"> Cadastrar</button>
-            </form>
-        </div>
+            <div class="newsletter">
+                <h4>Receba nossas novidades!</h4>
+                <form action="">
+                    <input id="campo-email" type="email" placeholder="E-mail" required> 
+                    <button onclick="enviarEmail"> Cadastrar</button>
+                </form>
+            </div>
+            
+            </div>
+            <div class="assinatura">
+            <p>Autora: Paula Mendes - pauli.smendes11@gmail.com - fevereiro de 2022</p>
+            </div>
         
-        </div>
-        <div class="assinatura">
-        <p>Autora: Paula Mendes - pauli.smendes11@gmail.com - fevereiro de 2022</p>
-        </div>
-</footer>
-<script  defer src="js/login.js"></script>
-
-</body>
+    </footer>
+    <!-- Isso aqui é da tela de login <script  defer src="src/app/js/login.js"></script> -->
+    
+    
